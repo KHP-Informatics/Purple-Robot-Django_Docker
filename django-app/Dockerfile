@@ -10,7 +10,8 @@ MAINTAINER "Amos Folarin <amosfolarin@gmail.com>"
 
 
 # Add Purple Robot project parts
-ADD ./manage.py
+ADD ./manage.py /var/www/django/purple_robot/
+ADD ./static /var/www/django/purple_robot/
 RUN mkdir media && \
 
 
