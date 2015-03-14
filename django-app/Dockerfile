@@ -9,7 +9,11 @@ MAINTAINER "Amos Folarin <amosfolarin@gmail.com>"
 # Add Dependancies
 
 
-# Add Django
+# Add Purple Robot project parts
+ADD ./manage.py
+RUN mkdir media && \
+
+
 
 
 # Add Purple Robot django project folder
