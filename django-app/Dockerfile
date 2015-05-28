@@ -4,7 +4,7 @@
 FROM django:onbuild
 
 # Maintainer
-MAINTAINER "Amos Folarin <amosfolarin@gmail.com>"
+MAINTAINER "Amos A Folarin <amosfolarin@gmail.com>"
 
 # Add Dependancies
 
